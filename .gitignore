@@ -1,0 +1,50 @@
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# --- Typescript ---
+*.tsbuildinfo
+
+# --- React / Frontend ---
+frontend/.vite/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# --- Python / Model ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.h5
+*.db
+.venv/
+env/
+model/.pytest_cache/
+model/.mypy_cache/
+
+# --- Environment files ---
+.env
+*.env.local
+*.env.development
+*.env.production
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE Files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs ---
+logs/
+*.log
